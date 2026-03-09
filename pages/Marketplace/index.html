@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketplace JS | Julián Derudi</title>
+
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="project-style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+<div class="logo">JD</div>
+<ul>
+<li><a href="../../index.html">← Volver al Portfolio</a></li>
+</ul>
+</nav>
+
+<header class="project-hero marketplace-hero">
+
+<div class="hero-content">
+
+<h1>Marketplace – JavaScript Vanilla</h1>
+
+<h2>Simulación de plataforma e-commerce sin frameworks</h2>
+
+<div class="hero-buttons">
+
+<a href="https://julianderudi.github.io/Marketplace/" target="_blank" class="btn">
+Live Demo
+</a>
+
+<a href="https://github.com/julianderudi/Marketplace" target="_blank" class="btn-outline">
+Ver Código
+</a>
+
+</div>
+
+<div class="tags justify-center">
+    <span>JavaScript</span><span>HTML</span><span>CSS</span><span>DOM</span><span>LocalStorage</span><span>Github Pages</span>
+</div>
+
+</div>
+
+</header>
+
+
+<main class="case-study">
+
+<section class="overview">
+
+<div class="container">
+
+<h3 class="section-title">Resumen del Proyecto</h3>
+
+<p>
+
+Este proyecto consiste en el desarrollo de una aplicación web que simula el funcionamiento de un marketplace de productos utilizando únicamente JavaScript Vanilla.  
+El objetivo fue construir una experiencia de compra completa sin utilizar frameworks, enfocándose en la manipulación directa del DOM, la lógica de negocio del carrito de compras y la persistencia de datos en el navegador mediante LocalStorage.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="tech-stack bg-light">
+
+<div class="edu-layout container">
+
+<div class="project-description">
+
+<h3>Arquitectura del Sistema</h3>
+
+<p>
+
+La aplicación fue desarrollada con un enfoque modular utilizando JavaScript puro para separar responsabilidades entre la lógica de negocio, el renderizado de la interfaz y la gestión del estado del carrito.
+
+</p>
+
+<ul class="project-details">
+
+<li><i class="fas fa-code"></i> <strong>Manipulación del DOM:</strong> generación dinámica de productos y actualización de la interfaz.</li>
+
+<li><i class="fas fa-shopping-cart"></i> <strong>Lógica de Carrito:</strong> agregado, eliminación y cálculo automático del total.</li>
+
+<li><i class="fas fa-save"></i> <strong>Persistencia:</strong> almacenamiento del carrito utilizando LocalStorage.</li>
+
+<li><i class="fas fa-layer-group"></i> <strong>Estructura Modular:</strong> separación entre catálogo, carrito y lógica de eventos.</li>
+
+</ul>
+
+</div>
+
+
+<div class="skills-container">
+
+<img src="img/catalogo.png" alt="Catálogo Marketplace" class="img-fluid rounded shadow" style="max-width: 100%;">
+
+<p class="img-caption">Catálogo dinámico de productos</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="features container">
+
+<h3 class="section-title">Funcionalidades Implementadas</h3>
+
+
+<div class="feature-row">
+
+<div class="feature-text">
+
+<h4>Catálogo Dinámico de Productos</h4>
+
+<p>
+
+Los productos se generan dinámicamente desde una estructura de datos en JavaScript.  
+Cada elemento del catálogo incluye nombre, precio, imagen y botón de compra, lo que permite escalar fácilmente la cantidad de productos disponibles.
+
+</p>
+
+</div>
+
+<div class="feature-img">
+
+<img src="img/catalogo-productos.png" alt="Catálogo Marketplace" class="project-img">
+
+</div>
+
+</div>
+
+
+
+<div class="feature-row reverse">
+
+<div class="feature-text">
+
+<h4>Carrito de Compras Interactivo</h4>
+
+<p>
+
+Implementación de un sistema de carrito que permite agregar productos, eliminar elementos y visualizar el total de la compra en tiempo real.  
+Toda la lógica fue desarrollada con JavaScript Vanilla manejando eventos y actualizando el DOM dinámicamente.
+
+</p>
+
+</div>
+
+<div class="feature-img">
+
+<img src="img/carrito.png" alt="Carrito de compras" class="project-img">
+
+</div>
+
+</div>
+
+
+
+<div class="feature-row">
+
+<div class="feature-text">
+
+<h4>Persistencia con LocalStorage</h4>
+
+<p>
+
+Para mejorar la experiencia de usuario, el estado del carrito se guarda en LocalStorage.  
+Esto permite que los productos agregados permanezcan disponibles incluso si el usuario recarga la página o vuelve más tarde.
+
+</p>
+
+</div>
+
+<!--<div class="feature-img">
+
+<img src="img/localstorage.png" alt="Persistencia LocalStorage" class="project-img">
+
+</div> -->
+
+</div>
+
+
+</section>
+
+
+
+<section class="btn-page-container">
+    <div class="btn-page">
+        <a href="https://julianderudi.github.io/Marketplace/" target="_blank">
+            Ver Marketplace en vivo
+        </a>
+    </div>
+</section>
+
+
+<section class="conclusion bg-dark">
+
+<div class="container text-center">
+
+<h3>Aprendizajes del Proyecto</h3>
+
+<p>
+
+Este proyecto permitió profundizar en el funcionamiento interno del navegador y comprender cómo los frameworks modernos abstraen la manipulación del DOM.  
+La implementación del carrito, el manejo de eventos y la persistencia en LocalStorage ayudaron a consolidar conceptos fundamentales de JavaScript como estructuras de datos, funciones, manejo del estado y arquitectura de aplicaciones frontend.
+
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<p>© 2026 - Proyecto desarrollado por Julian Derudi</p>
+
+</footer>
+
+
+</body>
+</html>

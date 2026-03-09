@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Project | Julián Derudi</title>
+    <link rel="stylesheet" href="../../style.css"> 
+    <link rel="stylesheet" href="project-style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">JD</div>
+        <ul>
+            <li><a href="../../index.html">← Volver al Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <header class="project-hero">
+        <div class="hero-content">
+            <h1>Sistemas Médicos Solidarios</h1>
+            <h2>Plataforma Integral de Gestión de Salud</h2>
+            <div class="tags justify-center">
+                <span>WordPress</span><span>PHP</span><span>MySQL</span><span>Ninja Form</span><span>Ultimate Member</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="case-study">
+        <section class="overview">
+            <div class="container">
+                <h3 class="section-title">Resumen del Proyecto</h3>
+                <p>Desarrollo de una plataforma web robusta para una organización de servicios médicos. El objetivo principal fue digitalizar la gestión de afiliados, permitiendo el acceso a credenciales, historial de pagos, ordenes médicas y solicitudes de atención de manera segura y eficiente. Todo administrado desde el panel de administracion de clientes, el cual solo pueden acceder los usuarios administradores</p>
+            </div>
+        </section>
+
+        <section class="tech-stack bg-light">
+            <div class="edu-layout container">
+                <div class="project-description">
+                    <h3>Arquitectura del Sistema</h3>
+                    <p>El sistema se construyó sobre el ecosistema de WordPress, pero extendido con lógica personalizada para manejar datos sensibles de salud.</p>
+                    <ul class="project-details">
+                        <li><i class="fas fa-database"></i> <strong>Base de Datos:</strong> Almacenamiento basado en User Metadata para escalabilidad.</li>
+                        <li><i class="fas fa-user-shield"></i> <strong>Niveles de Acceso:</strong> Roles diferenciados para Afiliados y Administradores.</li>
+                        <li><i class="fas fa-code"></i> <strong>Shortcodes:</strong> Creación de componentes PHP a medida para paneles dinámicos.</li>
+                    </ul>
+                </div>
+                <div class="skills-container">
+                    <img src="img/dashboard-admin.png" alt="Dashboard de Administración" class="img-fluid rounded shadow">
+                    <p class="img-caption">Interfaz de Gestión Administrativa</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features container">
+            <h3 class="section-title">Funcionalidades Implementadas</h3>
+            
+            <div class="feature-row">
+                <div class="feature-text">
+                    <h4>Panel "Mi Cuenta"</h4>
+                    <p>Un espacio exclusivo donde el afiliado visualiza su estado de cuenta, plan asignado y el grupo familiar cubierto. Todo sincronizado en tiempo real con la base de datos.</p>
+                </div>
+                <div class="feature-img">
+                    <img src="img/mi-cuenta.png" alt="Vista Mi Cuenta Afiliado" class="project-img">
+                </div>
+            </div>
+
+            <div class="feature-row reverse">
+                <div class="feature-text">
+                    <h4>Carnet Digital Dinámico</h4>
+                    <p>Generación automática de credenciales digitales verificables. Elimina la necesidad de carnets físicos, permitiendo al socio identificarse ante prestadores médicos desde su teléfono.</p>
+                </div>
+                <div class="feature-img">
+                    <img src="img/carnet-digital.png" alt="Carnet Digital SMS" class="project-img">
+                </div>
+            </div>
+
+            <div class="feature-row">
+                <div class="feature-text">
+                    <h4>Gestión de Turnos y Órdenes</h4>
+                    <p>Integración fluida con WhatsApp para la coordinación de citas y envío de órdenes médicas, optimizando la comunicación entre el paciente y el centro médico.</p>
+                </div>
+                <div class="feature-img">
+                    <img src="img/ordenes-medicas.png" alt="Sistema de Turnos" class="project-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="btn-page-container">
+            <div class="btn-page">
+                <a href="https://sistemasmedicossolidarios.com/" target="_blank">Sistemas Medicos Solidarios</a>
+            </div>
+        </section>
+
+        <section class="conclusion bg-dark">
+            <div class="container text-center">
+                <h3>Impacto del Proyecto</h3>
+                <p>La implementación de SMS permitió centralizar la información de cientos de familias, reduciendo en un 60% el tiempo de respuesta administrativa y eliminando los errores manuales en la gestión de cobros y estados de afiliación.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Proyecto desarrollado por Julian Derudi</p>
+    </footer>
+
+</body>
+</html>

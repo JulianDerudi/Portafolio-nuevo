@@ -1,0 +1,133 @@
+.marketplace-hero{
+background: linear-gradient(rgba(9,99,126,0.85), rgba(9,99,126,0.95)),
+url('img/marketplace-hero.jpg') center/cover;
+}
+
+/* Colores de Julián */
+:root {
+    --primary: #09637E;
+    --secondary: #088395;
+    --accent: #7AB2B2;
+    --light: #EBF4F6;
+    --white: #ffffff;
+}
+
+.project-hero {
+    height: 50vh !important;
+    background: linear-gradient(rgba(9, 99, 126, 0.8), rgba(9, 99, 126, 0.9)), 
+                url('img/hero-bg.jpg') center/cover;
+}
+
+.case-study {
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.bg-light { background-color: var(--light); }
+.bg-dark { background-color: var(--primary); color: white; }
+.text-center { text-align: center; }
+.justify-center { justify-content: center; }
+
+.feature-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.feature-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-text { flex: 1; }
+.feature-text h4 { 
+    color: var(--primary); 
+    font-size: 1.8rem; 
+    margin-bottom: 15px; 
+}
+
+.feature-img { flex: 1; }
+.project-img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.03);
+}
+
+.img-caption {
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .feature-row, .feature-row.reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* agregar diseños al boton "btn-page" de la seccion "btn-page-container", el cual lleva a la pagina del proyecto*/
+.btn-page-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    background-color: var(--light);
+    padding: 40px 0;
+}
+
+.btn-page a {
+    background: var(--primary);
+    color: var(--light);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-page a:hover {
+    background: var(--secondary);
+    color: var(--light);
+}
+
+.hero-buttons{
+
+margin-top:30px;
+
+}
+
+
+.btn{
+
+background:#088395;
+padding:12px 25px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+margin:10px;
+display:inline-block;
+
+}
+
+.btn-outline{
+
+border:2px solid white;
+padding:10px 23px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+margin:10px;
+display:inline-block;
+
+}
